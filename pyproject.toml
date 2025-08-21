@@ -1,0 +1,10 @@
+[project]
+name = "whateverd"
+version = "0.0.1"
+dependencies = [
+    "sdbus",
+]
+
+[project.scripts]
+whateverctl = "whateverd.control:main"
+whateverd = "whateverd.daemon:main"
