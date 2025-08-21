@@ -1,0 +1,2 @@
+# whateverd
+Daemon template
