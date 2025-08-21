@@ -1,0 +1,9 @@
+[Unit]
+Description=Whatever daemon
+
+[Service]
+ExecStart=%h/venv/bin/whateverd
+BusName=org.example.whatever
+
+[Install]
+WantedBy=default.target
